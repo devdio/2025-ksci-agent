@@ -14,3 +14,7 @@ chroma_db/
 *.sqlite3
 # Logs
 *.log
+.vscode/
+.vscode/*
+/.vscode
+.idea/
