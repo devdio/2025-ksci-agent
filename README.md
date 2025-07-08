@@ -38,3 +38,5 @@ LANGSMITH_API_KEY={your-api-key-here}
 -  [LangGraph](https://langchain-ai.github.io/langgraph/agents/agents/#prerequisites)  
 
 
+### 발표자료
+- [AI에이전트모델개발_HandsON](https://docs.google.com/presentation/d/1zRld0rr6n2m0nXGb_I0xgUlY7HtQ4RfQ/edit?usp=sharing&ouid=109996484062969817512&rtpof=true&sd=true)
