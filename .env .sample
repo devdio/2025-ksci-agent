@@ -1,0 +1,19 @@
+# OPENAI API KEY
+OPENAI_API_KEY={your-openai-key-here}
+
+# GOOGLE API KEY
+GOOGLE_GENAI_USE_VERTEXAI=FALSE
+GOOGLE_API_KEY={your-project-name-here}
+
+# ANTHROPIC API KEY
+ANTHROPIC_API_KEY={your-anthropic-api-key-here}
+ 
+# LANGCHAIN TOOL
+TAVILY_API_KEY={your-tavily-key-here}
+
+# LangSmith 설정
+LANGCHAIN_TRACING_V2=false
+LANGCHAIN_ENDPOINT=https://api.smith.langchain.com
+LANGCHAIN_API_KEY={your-langchain-api-key-here}
+LANGCHAIN_PROJECT={your-project-name-here}
+LANGSMITH_API_KEY={your-langsmith-key-here}
