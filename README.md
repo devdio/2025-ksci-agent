@@ -5,7 +5,7 @@
 ### 예제 내용 
 코드는 LangCahin과 LangGraph로 구현되었습니다.  
   
-1. 01-basic-chatbot.ipynb - LLM을 활용한 기본적인 Chatbot 구현
+1. [01-basic-chatbot.ipynb](./01-basic-chatbot.ipynb) - LLM을 활용한 기본적인 Chatbot 구현
 2. 02-add-tools.ipynb - 도구(Tool)호출을 위한 노드를 추가한 그래프 구현
 3. 03-prebuilt-agent.ipynb - `create_react_agent`함수를 사용한 에이전트 구현
 4. 04-supervisor-pattern.ipynb - 슈퍼바이저 패턴의 멀티에이전트 구현 
