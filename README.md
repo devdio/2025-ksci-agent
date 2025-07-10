@@ -3,7 +3,7 @@
 
 
 ### 예제 내용 
-코드는 LangCahin과 LangGraph로 구현되었습니다.  
+코드는 LangCahin과 LangGraph로 구현되었습니다. 실행을 위해서는 API키가 정의 되어있는 `.env`파일이 필요합니다. `.env`설정 방법은 아래 **환경설정** 부분을 참고하세요.
   
 1. [01-basic-chatbot.ipynb](./01-basic-chatbot.ipynb) - LLM을 활용한 기본적인 Chatbot 구현
 2. [02-add-tools.ipynb](./02-add-tools.ipynb) - 도구(Tool)호출을 위한 노드를 추가한 그래프 구현
