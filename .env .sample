@@ -16,4 +16,9 @@ LANGCHAIN_TRACING_V2=false
 LANGCHAIN_ENDPOINT=https://api.smith.langchain.com
 LANGCHAIN_API_KEY={your-langchain-api-key-here}
 LANGCHAIN_PROJECT={your-project-name-here}
+
+# latest???
+LANGSMITH_TRACING="false"
 LANGSMITH_API_KEY={your-langsmith-key-here}
+LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
+LANGSMITH_PROJECT = "My Project Name" # Optional: "default" is used if not set

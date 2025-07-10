@@ -15,7 +15,7 @@
 ### 환경 설정
 작성된 예제는 OpenAI와 Tavily 서비스를 사용하고 있습니다. 예제를 실행하기 위해서는 OpenAI키와 Tavily서비스 Key가 필요합니다.
   
-아래는 `.env`파일의 샘플입니다.
+아래는 `.env`파일의 샘플입니다. 예제에 포함되어있는 `.env.sample` 파일을 `.env` 로 이름을 바꾸어서 사용하시면 됩니다.
 ```
 # OPENAI API KEY
 OPENAI_API_KEY={your-api-key-here}
