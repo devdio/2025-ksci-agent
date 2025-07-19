@@ -3,19 +3,19 @@
 
 
 ### 예제 내용 
-코드는 LangCahin과 LangGraph로 구현되었습니다.  
+코드는 LangCahin과 LangGraph로 구현되었습니다. 실행을 위해서는 API키가 정의 되어있는 `.env`파일이 필요합니다. `.env`설정 방법은 아래 **환경설정** 부분을 참고하세요.
   
-1. 01-basic-chatbot.ipynb - LLM을 활용한 기본적인 Chatbot 구현
-2. 02-add-tools.ipynb - 도구(Tool)호출을 위한 노드를 추가한 그래프 구현
-3. 03-prebuilt-agent.ipynb - `create_react_agent`함수를 사용한 에이전트 구현
-4. 04-supervisor-pattern.ipynb - 슈퍼바이저 패턴의 멀티에이전트 구현 
-5. 05-prebuilt-create-supervisor.ipynb - 미리 구현된 `create_supervisor`함수 사용
+1. [01-basic-chatbot.ipynb](./01-basic-chatbot.ipynb) - LLM을 활용한 기본적인 Chatbot 구현
+2. [02-add-tools.ipynb](./02-add-tools.ipynb) - 도구(Tool)호출을 위한 노드를 추가한 그래프 구현
+3. [03-prebuilt-agent.ipynb](./03-prebuilt-agent.ipynb) - `create_react_agent`함수를 사용한 에이전트 구현
+4. [04-supervisor-pattern.ipynb](./04-supervisor-pattern.ipynb) - 슈퍼바이저 패턴의 멀티에이전트 구현 
+5. [05-prebuilt-create-supervisor.ipynb](./05-prebuilt-create-supervisor.ipynb) - 미리 구현된 `create_supervisor`함수 사용
 
 
 ### 환경 설정
 작성된 예제는 OpenAI와 Tavily 서비스를 사용하고 있습니다. 예제를 실행하기 위해서는 OpenAI키와 Tavily서비스 Key가 필요합니다.
   
-아래는 `.env`파일의 샘플입니다.
+아래는 `.env`파일의 샘플입니다. 예제에 포함되어있는 `.env.sample` 파일을 `.env` 로 이름을 바꾸어서 사용하시면 됩니다.
 ```
 # OPENAI API KEY
 OPENAI_API_KEY={your-api-key-here}
@@ -38,3 +38,5 @@ LANGSMITH_API_KEY={your-api-key-here}
 -  [LangGraph](https://langchain-ai.github.io/langgraph/agents/agents/#prerequisites)  
 
 
+### 발표자료
+- [AI에이전트모델개발_HandsON](https://docs.google.com/presentation/d/1zRld0rr6n2m0nXGb_I0xgUlY7HtQ4RfQ/edit?usp=sharing&ouid=109996484062969817512&rtpof=true&sd=true)
